@@ -1,6 +1,7 @@
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #ecf0f1;
 }
 
 .question-card {
@@ -9,6 +10,7 @@ body {
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .options .btn {
@@ -18,4 +20,15 @@ body {
 
 .score-card {
   text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-palette {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
