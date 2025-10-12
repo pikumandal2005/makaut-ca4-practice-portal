@@ -14,6 +14,9 @@ function App() {
   const [score, setScore] = useState(0);
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [time, setTime] = useState(0);
+  const [questionStatus, setQuestionStatus] = useState([]);
+  const [userAnswers, setUserAnswers] = useState({});
+
 
   useEffect(() => {
     let timer;
@@ -28,9 +31,19 @@ function App() {
   const startQuiz = () => {
     setGameState('quiz');
     setTime(0);
+    setQuestionStatus(Array(questions.length).fill('not-answered'));
+    setUserAnswers({});
+    setScore(0);
+    setCurrentQuestion(0);
   };
 
   const handleAnswer = (selectedAnswer) => {
+    const newQuestionStatus = [...questionStatus];
+    newQuestionStatus[currentQuestion] = 'answered';
+    setQuestionStatus(newQuestionStatus);
+
+    setUserAnswers({ ...userAnswers, [currentQuestion]: selectedAnswer });
+
     if (selectedAnswer === questions[currentQuestion].correctAnswer) {
       setScore(score + 1);
     }
@@ -47,6 +60,8 @@ function App() {
     setGameState('start');
     setCurrentQuestion(0);
     setScore(0);
+    setQuestionStatus([]);
+    setUserAnswers({});
   };
 
   const toggleSidebar = () => {
@@ -55,6 +70,10 @@ function App() {
 
   const handleQuestionSelect = (questionIndex) => {
     setCurrentQuestion(questionIndex);
+  };
+
+  const handleExit = () => {
+    setGameState('end');
   };
 
   const formatTime = (seconds) => {
@@ -83,12 +102,14 @@ function App() {
                 question={questions[currentQuestion]}
                 onAnswer={handleAnswer}
               />
+              <button className="btn btn-danger mt-3" onClick={handleExit}>Exit Quiz</button>
             </div>
             <div className="right-sidebar">
               <QuestionPalette
                 questions={questions}
                 currentQuestion={currentQuestion}
                 onQuestionSelect={handleQuestionSelect}
+                questionStatus={questionStatus}
               />
             </div>
           </div>
