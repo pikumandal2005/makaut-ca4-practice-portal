@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { questions as numericalQuestions } from './data/questions';
+import { questions as numericalMethodsQuestions } from './data/numerical-methods-questions.js';
 import { questions as electricCircuitQuestions } from './data/electric-circuit-questions';
 import { questions as indianConstitutionQuestions } from './data/indian-constitution-questions';
 import { questions as analogElectronicsQuestions } from './data/analog-electronics-questions';
@@ -40,7 +40,7 @@ function App() {
   const startQuiz = (selectedSubject) => {
     let selectedQuestions;
     if (selectedSubject === 'numerical-methods') {
-      selectedQuestions = numericalQuestions;
+      selectedQuestions = numericalMethodsQuestions;
       setSubject('Numerical Methods');
     } else if (selectedSubject === 'electric-circuit') {
       selectedQuestions = electricCircuitQuestions;
