@@ -25,6 +25,9 @@ const StartScreen = ({ onStart }) => {
         <button className="btn btn-secondary btn-lg" onClick={() => onStart('biology')}>
           Biology for Engineers
         </button>
+        <button className="btn btn-dark btn-lg" onClick={() => onStart('engineering-mechanics')}>
+          Engineering Mechanics
+        </button>
       </div>
     </div>
   );

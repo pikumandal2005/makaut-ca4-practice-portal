@@ -7,6 +7,7 @@ import { questions as indianConstitutionQuestions } from './data/indian-constitu
 import { questions as analogElectronicsQuestions } from './data/analog-electronics-questions';
 import { questions as emftQuestions } from './data/emft-questions';
 import { questions as biologyQuestions } from './data/biology-questions';
+import { engineeringMechanicsQuestions } from './data/engineering-mechanics-questions';
 import StartScreen from './components/StartScreen';
 import Question from './components/Question';
 import EndScreen from './components/EndScreen';
@@ -56,6 +57,9 @@ function App() {
     } else if (selectedSubject === 'biology') {
       selectedQuestions = biologyQuestions;
       setSubject('Biology for Engineers');
+    } else if (selectedSubject === 'engineering-mechanics') {
+      selectedQuestions = engineeringMechanicsQuestions;
+      setSubject('Engineering Mechanics');
     }
 
     setQuestions(selectedQuestions);
