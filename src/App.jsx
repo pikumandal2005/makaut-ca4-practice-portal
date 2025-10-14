@@ -1,14 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { questions as numericalMethodsQuestions } from './data/numerical-methods-questions.js';
-import { questions as electricCircuitQuestions } from './data/electric-circuit-questions';
-import { questions as indianConstitutionQuestions } from './data/indian-constitution-questions';
-import { questions as analogElectronicsQuestions } from './data/analog-electronics-questions';
-import { questions as emftQuestions } from './data/emft-questions';
-import { questions as biologyQuestions } from './data/biology-questions';
-import { engineeringMechanicsQuestions } from './data/engineering-mechanics-questions';
+import { departments } from './data/subjects.js';
 import StartScreen from './components/StartScreen';
+import ModuleScreen from './components/ModuleScreen';
 import Question from './components/Question';
 import EndScreen from './components/EndScreen';
 import Sidebar from './components/Sidebar';
@@ -25,7 +20,8 @@ function App() {
   const [questions, setQuestions] = useState([]);
   const [subject, setSubject] = useState('');
   const [markedQuestions, setMarkedQuestions] = useState([]);
-
+  const [selectedSubject, setSelectedSubject] = useState(null);
+  const [modules, setModules] = useState([]);
 
   useEffect(() => {
     let timer;
@@ -37,39 +33,38 @@ function App() {
     return () => clearInterval(timer);
   }, [gameState]);
 
-  const startQuiz = (selectedSubject) => {
-    let selectedQuestions;
-    if (selectedSubject === 'numerical-methods') {
-      selectedQuestions = numericalMethodsQuestions;
-      setSubject('Numerical Methods');
-    } else if (selectedSubject === 'electric-circuit') {
-      selectedQuestions = electricCircuitQuestions;
-      setSubject('Electric Circuit Theory');
-    } else if (selectedSubject === 'indian-constitution') {
-      selectedQuestions = indianConstitutionQuestions;
-      setSubject('Indian Constitution');
-    } else if (selectedSubject === 'analog-electronics') {
-      selectedQuestions = analogElectronicsQuestions;
-      setSubject('Analog Electronics');
-    } else if (selectedSubject === 'emft') {
-      selectedQuestions = emftQuestions;
-      setSubject('Electro Magnetic Field Theory');
-    } else if (selectedSubject === 'biology') {
-      selectedQuestions = biologyQuestions;
-      setSubject('Biology for Engineers');
-    } else if (selectedSubject === 'engineering-mechanics') {
-      selectedQuestions = engineeringMechanicsQuestions;
-      setSubject('Engineering Mechanics');
-    }
+  const handleSubjectSelect = (subject) => {
+    import(`./data/${subject.path}`).then(module => {
+      const modules = module.default;
+      setModules(modules);
+      setSelectedSubject(subject);
+      setGameState('module');
+    });
+  };
 
-    setQuestions(selectedQuestions);
+  const startQuiz = (questions, subjectName) => {
+    setQuestions(questions);
+    setSubject(subjectName);
     setGameState('quiz');
     setTime(0);
-    setQuestionStatus(Array(selectedQuestions.length).fill('not-answered'));
+    setQuestionStatus(Array(questions.length).fill('not-answered'));
     setUserAnswers({});
     setScore(0);
     setCurrentQuestion(0);
     setMarkedQuestions([]);
+  };
+
+  const handleStartModule = (module) => {
+    startQuiz(module.questions, selectedSubject.name);
+  };
+
+  const handleStartAllModules = () => {
+    const allQuestions = modules.flatMap(module => module.questions);
+    startQuiz(allQuestions, selectedSubject.name);
+  };
+
+  const handleBackToSubject = () => {
+    setGameState('start');
   };
 
   const handleAnswer = (selectedAnswer) => {
@@ -144,7 +139,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <Sidebar isOpen={isSidebarOpen} />
+      <Sidebar isOpen={isSidebarOpen} departments={departments} onStartQuiz={handleSubjectSelect} />
       <div className={`main-content ${isSidebarOpen ? 'sidebar-open' : ''}`}>
         <div className="header">
           <button className="sidebar-toggle btn btn-info" onClick={toggleSidebar}>
@@ -155,7 +150,16 @@ function App() {
           {gameState === 'quiz' && <div className="timer">Time: {formatTime(time)}</div>}
         </div>
 
-        {gameState === 'start' && <StartScreen onStart={startQuiz} />}
+        {gameState === 'start' && <StartScreen departments={departments} onStart={handleSubjectSelect} />}
+        {gameState === 'module' && (
+          <ModuleScreen
+            subject={selectedSubject}
+            modules={modules}
+            onStartModule={handleStartModule}
+            onStartAll={handleStartAllModules}
+            onBack={handleBackToSubject}
+          />
+        )}
         {gameState === 'quiz' && (
           <div className="quiz-container">
             <div className="question-area">

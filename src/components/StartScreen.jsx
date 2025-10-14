@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { departments } from '../data/subjects';
 
-const StartScreen = ({ onStart }) => {
+const StartScreen = ({ departments, onStart }) => {
   const [selectedDept, setSelectedDept] = useState(null);
   const [selectedSem, setSelectedSem] = useState(null);
 
@@ -50,15 +49,19 @@ const StartScreen = ({ onStart }) => {
             <button className="btn btn-secondary btn-lg mb-3" onClick={handleBack}>
               Back to Departments
             </button>
-            {selectedDept.semesters.map((sem) => (
-              <button
-                key={sem.name}
-                className="btn btn-success btn-lg"
-                onClick={() => handleSemSelect(sem)}
-              >
-                {sem.name}
-              </button>
-            ))}
+            {selectedDept.semesters.length > 0 ? (
+              selectedDept.semesters.map((sem) => (
+                <button
+                  key={sem.name}
+                  className="btn btn-success btn-lg"
+                  onClick={() => handleSemSelect(sem)}
+                >
+                  {sem.name}
+                </button>
+              ))
+            ) : (
+              <p>Coming Soon</p>
+            )}
           </div>
         </>
       )}
@@ -74,7 +77,7 @@ const StartScreen = ({ onStart }) => {
               <button
                 key={subject.key}
                 className="btn btn-info btn-lg"
-                onClick={() => onStart(subject.key)}
+                onClick={() => onStart(subject)}
               >
                 {subject.name}
               </button>

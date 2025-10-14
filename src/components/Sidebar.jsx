@@ -1,8 +1,7 @@
-
 import React from 'react';
 import pikuImage from '../assets/piku.jpg';
 
-const Sidebar = ({ isOpen }) => {
+const Sidebar = ({ isOpen, departments, onStartQuiz }) => {
   return (
     <div className={`sidebar ${isOpen ? 'open' : ''}`}>
       <div className="sidebar-header">
@@ -10,6 +9,34 @@ const Sidebar = ({ isOpen }) => {
         <h3>Piku Mandal</h3>
       </div>
       <div className="sidebar-content">
+        <div className="sidebar-section">
+          <h5>Subjects</h5>
+          {departments.map(dept => (
+            <div key={dept.name}>
+              <h6>{dept.name}</h6>
+              {dept.semesters.length > 0 ? (
+                <ul>
+                  {dept.semesters.map(sem => (
+                    <li key={sem.name}>
+                      {sem.name}
+                      <ul>
+                        {sem.subjects.map(subject => (
+                          <li key={subject.key}>
+                            <button className="btn btn-link" onClick={() => onStartQuiz(subject)}>
+                              {subject.name}
+                            </button>
+                          </li>
+                        ))}
+                      </ul>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p>Coming Soon</p>
+              )}
+            </div>
+          ))}
+        </div>
         <div className="sidebar-section">
           <h5>About Me</h5>
           <p>Hello! I'm Piku, a dedicated and enthusiastic developer with a passion for building innovative and impactful applications. My journey in technology is driven by a desire to solve real-world problems and create seamless user experiences. I thrive on challenges and am constantly exploring new technologies to broaden my skillset. When I'm not coding, I enjoy exploring new places and staying up-to-date with the latest tech trends.</p>
