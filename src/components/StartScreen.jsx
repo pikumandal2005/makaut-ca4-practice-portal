@@ -23,7 +23,7 @@ const StartScreen = ({ departments, onStart }) => {
 
   return (
     <div className="text-center">
-      <h2 className="mb-4">Welcome to the University Exam Portal!</h2>
+      <h2 className="mb-4">MAKAUT University Exam Practice Portal</h2>
 
       {!selectedDept && (
         <>

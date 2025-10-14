@@ -139,7 +139,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <Sidebar isOpen={isSidebarOpen} departments={departments} onStartQuiz={handleSubjectSelect} />
+      <Sidebar isOpen={isSidebarOpen} />
       <div className={`main-content ${isSidebarOpen ? 'sidebar-open' : ''}`}>
         <div className="header">
           <button className="sidebar-toggle btn btn-info" onClick={toggleSidebar}>
