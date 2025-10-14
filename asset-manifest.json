@@ -1,16 +1,30 @@
 {
   "files": {
     "main.css": "/makaut-ca4-practice-portal/static/css/main.032fb306.css",
-    "main.js": "/makaut-ca4-practice-portal/static/js/main.144da738.js",
+    "main.js": "/makaut-ca4-practice-portal/static/js/main.d81361db.js",
+    "static/js/947.b44b0549.chunk.js": "/makaut-ca4-practice-portal/static/js/947.b44b0549.chunk.js",
+    "static/js/578.e93db79b.chunk.js": "/makaut-ca4-practice-portal/static/js/578.e93db79b.chunk.js",
+    "static/js/732.28601196.chunk.js": "/makaut-ca4-practice-portal/static/js/732.28601196.chunk.js",
+    "static/js/217.93eefd48.chunk.js": "/makaut-ca4-practice-portal/static/js/217.93eefd48.chunk.js",
+    "static/js/432.0a9c2113.chunk.js": "/makaut-ca4-practice-portal/static/js/432.0a9c2113.chunk.js",
+    "static/js/320.48063ec6.chunk.js": "/makaut-ca4-practice-portal/static/js/320.48063ec6.chunk.js",
+    "static/js/264.1782cfff.chunk.js": "/makaut-ca4-practice-portal/static/js/264.1782cfff.chunk.js",
     "static/js/453.1676f5b3.chunk.js": "/makaut-ca4-practice-portal/static/js/453.1676f5b3.chunk.js",
     "static/media/piku.jpg": "/makaut-ca4-practice-portal/static/media/piku.ed2eba6a94abc6029b84.jpg",
     "index.html": "/makaut-ca4-practice-portal/index.html",
     "main.032fb306.css.map": "/makaut-ca4-practice-portal/static/css/main.032fb306.css.map",
-    "main.144da738.js.map": "/makaut-ca4-practice-portal/static/js/main.144da738.js.map",
+    "main.d81361db.js.map": "/makaut-ca4-practice-portal/static/js/main.d81361db.js.map",
+    "947.b44b0549.chunk.js.map": "/makaut-ca4-practice-portal/static/js/947.b44b0549.chunk.js.map",
+    "578.e93db79b.chunk.js.map": "/makaut-ca4-practice-portal/static/js/578.e93db79b.chunk.js.map",
+    "732.28601196.chunk.js.map": "/makaut-ca4-practice-portal/static/js/732.28601196.chunk.js.map",
+    "217.93eefd48.chunk.js.map": "/makaut-ca4-practice-portal/static/js/217.93eefd48.chunk.js.map",
+    "432.0a9c2113.chunk.js.map": "/makaut-ca4-practice-portal/static/js/432.0a9c2113.chunk.js.map",
+    "320.48063ec6.chunk.js.map": "/makaut-ca4-practice-portal/static/js/320.48063ec6.chunk.js.map",
+    "264.1782cfff.chunk.js.map": "/makaut-ca4-practice-portal/static/js/264.1782cfff.chunk.js.map",
     "453.1676f5b3.chunk.js.map": "/makaut-ca4-practice-portal/static/js/453.1676f5b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.032fb306.css",
-    "static/js/main.144da738.js"
+    "static/js/main.d81361db.js"
   ]
 }
