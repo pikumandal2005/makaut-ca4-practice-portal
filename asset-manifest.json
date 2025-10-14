@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/makaut-ca4-practice-portal/static/css/main.032fb306.css",
-    "main.js": "/makaut-ca4-practice-portal/static/js/main.9d04449d.js",
+    "main.js": "/makaut-ca4-practice-portal/static/js/main.144da738.js",
     "static/js/453.1676f5b3.chunk.js": "/makaut-ca4-practice-portal/static/js/453.1676f5b3.chunk.js",
     "static/media/piku.jpg": "/makaut-ca4-practice-portal/static/media/piku.ed2eba6a94abc6029b84.jpg",
     "index.html": "/makaut-ca4-practice-portal/index.html",
     "main.032fb306.css.map": "/makaut-ca4-practice-portal/static/css/main.032fb306.css.map",
-    "main.9d04449d.js.map": "/makaut-ca4-practice-portal/static/js/main.9d04449d.js.map",
+    "main.144da738.js.map": "/makaut-ca4-practice-portal/static/js/main.144da738.js.map",
     "453.1676f5b3.chunk.js.map": "/makaut-ca4-practice-portal/static/js/453.1676f5b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.032fb306.css",
-    "static/js/main.9d04449d.js"
+    "static/js/main.144da738.js"
   ]
 }
