@@ -1,4 +1,4 @@
-# Numerical Methods MCQ Game
+# makaut-ca4-practice-portal
 
 This is a simple multiple-choice question (MCQ) game built with React to help students study and learn about Numerical Methods.
 
@@ -24,7 +24,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username/numerical-methods-mcq.git
+   git clone https://github.com/your_username/makaut-ca4-practice-portal.git
    ```
 2. Install NPM packages
    ```sh

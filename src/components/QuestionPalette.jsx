@@ -1,29 +1,37 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 
-const QuestionPalette = ({ questions, currentQuestion, onQuestionSelect, questionStatus }) => {
+const QuestionPalette = ({ questions, currentQuestion, onQuestionSelect, questionStatus, markedQuestions }) => {
+  const [showOnlyMarked, setShowOnlyMarked] = useState(false);
+
+  const getStatusClass = (index) => {
+    if (index === currentQuestion) {
+      return 'current';
+    }
+    if (markedQuestions.includes(index)) {
+      return 'marked';
+    }
+    return questionStatus[index];
+  };
+
+  const filteredQuestions = showOnlyMarked ? questions.filter((_, index) => markedQuestions.includes(index)) : questions;
+
   return (
     <div className="question-palette">
       <h5>Question Palette</h5>
+      <button className="btn btn-warning btn-sm mb-2" onClick={() => setShowOnlyMarked(!showOnlyMarked)}>
+        {showOnlyMarked ? 'Show All' : 'Review'}
+      </button>
       <div className="palette-grid">
-        {questions.map((_, index) => {
-          const status = questionStatus[index];
-          let statusClass = '';
-          if (index === currentQuestion) {
-            statusClass = 'current';
-          } else if (status === 'answered') {
-            statusClass = 'answered';
-          } else {
-            statusClass = 'not-answered';
-          }
-
+        {filteredQuestions.map((_, index) => {
+          const originalIndex = questions.indexOf(_);
           return (
             <button
-              key={index}
-              className={`palette-item ${statusClass}`}
-              onClick={() => onQuestionSelect(index)}
+              key={originalIndex}
+              className={`palette-item ${getStatusClass(originalIndex)}`}
+              onClick={() => onQuestionSelect(originalIndex)}
             >
-              {index + 1}
+              {originalIndex + 1}
             </button>
           );
         })}
@@ -39,4 +47,3 @@ const QuestionPalette = ({ questions, currentQuestion, onQuestionSelect, questio
 };
 
 export default QuestionPalette;
-

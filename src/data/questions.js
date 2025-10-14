@@ -85,7 +85,6 @@ export const questions = [
     correctAnswer: "Single-step method",
   },
   {
-.
     text: "Gauss elimination method is used to solve:",
     options: ["Systems of linear equations", "Systems of non-linear equations", "Ordinary differential equations", "Partial differential equations"],
     correctAnswer: "Systems of linear equations",
@@ -254,5 +253,55 @@ export const questions = [
     text: "The backward difference operator ∇ is defined as:",
     options: ["∇f(x) = f(x) - f(x-h)", "∇f(x) = f(x+h) - f(x)", "∇f(x) = f(x) + f(x-h)", "∇f(x) = f(x+h) + f(x)"],
     correctAnswer: "∇f(x) = f(x) - f(x-h)",
+  },
+  {
+    text: "What is the primary drawback of the bisection method?",
+    options: ["Slow convergence", "May not converge", "Requires derivative", "Can't be used for polynomials"],
+    correctAnswer: "Slow convergence",
+  },
+  {
+    text: "For what type of equations is the Newton-Raphson method not suitable?",
+    options: ["When the derivative is close to zero", "For polynomial equations", "For transcendental equations", "For linear equations"],
+    correctAnswer: "When the derivative is close to zero",
+  },
+  {
+    text: "Which interpolation method is generally preferred for a large number of data points?",
+    options: ["Spline interpolation", "Lagrange interpolation", "Newton's forward interpolation", "Newton's backward interpolation"],
+    correctAnswer: "Spline interpolation",
+  },
+  {
+    text: "What is the condition for convergence of an iterative method for solving linear equations?",
+    options: ["The spectral radius of the iteration matrix is less than 1", "The matrix is symmetric", "The matrix is positive definite", "The matrix is orthogonal"],
+    correctAnswer: "The spectral radius of the iteration matrix is less than 1",
+  },
+  {
+    text: "Which of these methods is a predictor-corrector method?",
+    options: ["Adams-Moulton method", "Euler's method", "Runge-Kutta method", "Taylor series method"],
+    correctAnswer: "Adams-Moulton method",
+  },
+  {
+    text: "The Gauss-Jordan method is a modification of which method?",
+    options: ["Gauss elimination method", "Gauss-Seidel method", "Jacobi method", "LU decomposition"],
+    correctAnswer: "Gauss elimination method",
+  },
+  {
+    text: "What is the main advantage of LU decomposition over Gauss elimination?",
+    options: ["It is more efficient for solving multiple systems with the same coefficient matrix", "It is more stable", "It requires less memory", "It is an iterative method"],
+    correctAnswer: "It is more efficient for solving multiple systems with the same coefficient matrix",
+  },
+  {
+    text: "Which of the following methods can be used to find the eigenvalues of a matrix?",
+    options: ["Power method", "Bisection method", "Newton-Raphson method", "Regula-Falsi method"],
+    correctAnswer: "Power method",
+  },
+  {
+    text: "What is the purpose of the 'shifting' technique in the power method?",
+    options: ["To find eigenvalues other than the dominant one", "To accelerate convergence", "To improve stability", "To reduce round-off error"],
+    correctAnswer: "To find eigenvalues other than the dominant one",
+  },
+  {
+    text: "Which numerical integration method is based on fitting parabolas to the data points?",
+    options: ["Simpson's 1/3 rule", "Trapezoidal rule", "Romberg integration", "Gauss quadrature"],
+    correctAnswer: "Simpson's 1/3 rule",
   }
 ];

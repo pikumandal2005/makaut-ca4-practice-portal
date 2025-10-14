@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 
-const Question = ({ question, onAnswer }) => {
+const Question = ({ question, onAnswer, onMarkForReview, isMarked }) => {
   const [selectedOption, setSelectedOption] = useState(null);
 
   const handleAnswer = () => {
@@ -30,13 +30,21 @@ const Question = ({ question, onAnswer }) => {
           </div>
         ))}
       </div>
-      <button
-        className="btn btn-primary mt-4"
-        onClick={handleAnswer}
-        disabled={!selectedOption}
-      >
-        Save & Next
-      </button>
+      <div className="d-flex justify-content-center gap-2 mt-4">
+        <button
+          className="btn btn-primary btn-lg"
+          onClick={handleAnswer}
+          disabled={!selectedOption}
+        >
+          Save & Next
+        </button>
+        <button
+          className={`btn btn-warning btn-lg`}
+          onClick={onMarkForReview}
+        >
+          {isMarked ? 'Unmark' : 'Mark for Review'}
+        </button>
+      </div>
     </div>
   );
 };

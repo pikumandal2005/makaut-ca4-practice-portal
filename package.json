@@ -1,8 +1,8 @@
 {
-  "name": "numerical-methods-mcq",
+  "name": "makaut-ca4-practice-portal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pikumandal2005.github.io/numerical-methods-mcq",
+  "homepage": "https://pikumandal2005.github.io/makaut-ca4-practice-portal",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
