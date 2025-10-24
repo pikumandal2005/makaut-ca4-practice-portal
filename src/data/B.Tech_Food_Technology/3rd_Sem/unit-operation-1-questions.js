@@ -1,3 +1,4 @@
+
 export default [
   {
     moduleName: "Size Reduction",
@@ -21,6 +22,114 @@ export default [
           "The mass of the particle"
         ],
         correctAnswer: "The new surface area created"
+      },
+      {
+        text: "Kick's law states that the energy required for size reduction is proportional to:",
+        options: [
+          "The ratio of the initial size to the final size",
+          "The new surface area created",
+          "The volume of the particle",
+          "The mass of the particle"
+        ],
+        correctAnswer: "The ratio of the initial size to the final size"
+      },
+      {
+        text: "Bond's law states that the energy required for size reduction is proportional to:",
+        options: [
+          "The square root of the ratio of the initial size to the final size",
+          "The new surface area created",
+          "The volume of the particle",
+          "The mass of the particle"
+        ],
+        correctAnswer: "The square root of the ratio of the initial size to the final size"
+      },
+      {
+        text: "A ball mill is a type of grinder that is used to grind and blend materials for use in mineral dressing processes, paints, pyrotechnics, ceramics and selective laser sintering.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A hammer mill is a mill whose purpose is to shred or crush aggregate material into smaller pieces by the repeated blows of little hammers.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A jaw crusher is a type of crusher that uses a pair of jaws to crush material.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A gyratory crusher is a type of crusher that is similar to a jaw crusher, but it has a conical head and a concave surface.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A cone crusher is a type of crusher that is similar to a gyratory crusher, but it has a shorter and wider crushing chamber.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A roll crusher is a type of crusher that uses a pair of rollers to crush material.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A disintegrator is a machine that is used to break down materials into smaller pieces.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Comminution is the reduction of solid materials from one average particle size to a smaller average particle size, by crushing, grinding, cutting, vibrating, or other processes.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The energy and power requirement for size reduction depends on the properties of the material, the size reduction ratio, and the type of equipment used.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The disintegration of fibrous materials is a process of breaking down fibrous materials into smaller pieces.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The principles of size reduction are based on the laws of physics, such as the laws of motion and the laws of thermodynamics.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
       }
     ]
   },
@@ -46,6 +155,110 @@ export default [
           "All of the above"
         ],
         correctAnswer: "All of the above"
+      },
+      {
+        text: "The mixing index is a measure of the degree of mixing.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The mixing time is the time required to achieve a certain degree of mixing.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Agitation is the process of inducing motion of a material in a specified way.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Blending is the process of combining two or more materials to produce a homogeneous mixture.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Screening is the process of separating a mixture of particles of different sizes into two or more fractions by passing the mixture over a screen.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Filtration is the process of separating a solid from a fluid by passing the fluid through a filter medium.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Settling is the process by which particles settle to the bottom of a liquid.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Floatation is a process for separating minerals from gangue by taking advantage of differences in their hydrophobicity.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Centrifugation is a process that involves the use of the centrifugal force for the separation of mixtures.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Sedimentation is the tendency for particles in suspension to settle out of the fluid in which they are entrained and come to rest against a barrier.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Flocculation is a process wherein colloids come out of suspension in the form of floc or flake, either spontaneously or due to the addition of a clarifying agent.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Hydraulic separation is a process of separating minerals of different specific gravities by means of water.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Heavy media separation is a process of separating minerals of different specific gravities by means of a heavy liquid.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
       }
     ]
   },
@@ -61,6 +274,118 @@ export default [
           "Charge"
         ],
         correctAnswer: "Mass"
+      },
+      {
+        text: "A steady-state process is a process in which the variables of the system do not change with time.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "An unsteady-state process is a process in which the variables of the system change with time.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A material balance without chemical reactions is a material balance in which no chemical reactions occur.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A material balance with chemical reactions is a material balance in which chemical reactions occur.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Humidification is the process of increasing the moisture content of air.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Continuous filtration is a filtration process in which the feed is continuously fed to the filter and the filtrate is continuously removed.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Batch mixing is a mixing process in which the ingredients are mixed in a batch.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A crystallizer is a device that is used to crystallize a substance.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A distillation column is a device that is used to separate a mixture of liquids with different boiling points.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Stoichiometry is the calculation of reactants and products in chemical reactions.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Growth stoichiometry is the study of the quantitative relationships between the reactants and products in biological growth processes.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Elemental balances are a type of material balance that is based on the conservation of elements.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The general mass balance equation is: Input + Generation - Output - Consumption = Accumulation.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The procedure for material balance calculations involves identifying the system, the components, and the processes, and then applying the principle of conservation of mass.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
       }
     ]
   },
@@ -76,6 +401,122 @@ export default [
           "None of the above"
         ],
         correctAnswer: "Returns material from a downstream unit to an upstream unit"
+      },
+      {
+        text: "A bypass stream is a process stream that:",
+        options: [
+          "Returns material from a downstream unit to an upstream unit",
+          "Skips one or more stages of the process and goes directly to a later stage",
+          "Is withdrawn from the process to remove an accumulation of inerts or unwanted material",
+          "None of the above"
+        ],
+        correctAnswer: "Skips one or more stages of the process and goes directly to a later stage"
+      },
+      {
+        text: "A purge stream is a process stream that:",
+        options: [
+          "Returns material from a downstream unit to an upstream unit",
+          "Skips one or more stages of the process and goes directly to a later stage",
+          "Is withdrawn from the process to remove an accumulation of inerts or unwanted material",
+          "None of the above"
+        ],
+        correctAnswer: "Is withdrawn from the process to remove an accumulation of inerts or unwanted material"
+      },
+      {
+        text: "Recycle streams are used to increase the conversion of reactants, to improve the selectivity of a reaction, and to recover valuable materials.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Bypass streams are used to control the composition of a product stream, to control the temperature of a process, and to avoid overheating of a catalyst.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Purge streams are used to prevent the buildup of inerts or unwanted materials in a process.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The application of recycle, bypass, and purge streams is common in the food and biochemical industries.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A material balance with recycle, bypass, and purge streams is a material balance that includes these types of streams.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The calculation of a material balance with recycle, bypass, and purge streams is more complex than a material balance without these streams.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The overall conversion of a reactant is the fraction of the reactant that is converted to product in the overall process.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The single-pass conversion of a reactant is the fraction of the reactant that is converted to product in a single pass through the reactor.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The overall conversion is always greater than or equal to the single-pass conversion.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The recycle ratio is the ratio of the amount of material recycled to the amount of material fed to the process.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The bypass ratio is the ratio of the amount of material bypassed to the amount of material fed to the process.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The purge ratio is the ratio of the amount of material purged to the amount of material fed to the process.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
       }
     ]
   },
@@ -91,6 +532,120 @@ export default [
           "Solid-gas separation"
         ],
         correctAnswer: "Solid-liquid separation"
+      },
+      {
+        text: "The driving force for crystallization is:",
+        options: [
+          "Supersaturation",
+          "Subcooling",
+          "Superheating",
+          "None of the above"
+        ],
+        correctAnswer: "Supersaturation"
+      },
+      {
+        text: "A crystallizer is a device that is used to crystallize a substance.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The material and energy balance calculations for a crystallizer are based on the principles of conservation of mass and energy.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Liquid-liquid extraction is a process of separating the components of a liquid mixture by contacting the mixture with an immiscible liquid solvent.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The selectivity of a solvent is a measure of its ability to dissolve one component of a mixture more than another.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The choice of solvent for liquid-liquid extraction depends on the properties of the components of the mixture and the solvent.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A stage operation is an operation in which two phases are brought into contact and then separated.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The number of equilibrium stages required for a given separation can be determined by graphical methods.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Leaching is the process of extracting a substance from a solid by dissolving it in a liquid.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The material balance calculations for a leaching operation are based on the principles of conservation of mass.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The introduction to crystallizer design involves selecting the type of crystallizer, determining the size of the crystallizer, and designing the operating conditions.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The fundamental principles of liquid-liquid extraction are based on the principles of phase equilibrium and mass transfer.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The fundamental principles of leaching are based on the principles of mass transfer and solid-liquid equilibrium.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The material balances in stage operations are based on the principles of conservation of mass.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
       }
     ]
   }

@@ -1,3 +1,4 @@
+
 export default [
   {
     moduleName: "Dilute solutions",
@@ -31,6 +32,112 @@ export default [
           "[OH-]/[H+]"
         ],
         correctAnswer: "[H+][OH-]"
+      },
+      {
+        text: "The elevation of boiling point is a colligative property that depends on the:",
+        options: [
+          "Nature of the solute",
+          "Nature of the solvent",
+          "Number of solute particles",
+          "Number of solvent particles"
+        ],
+        correctAnswer: "Number of solute particles"
+      },
+      {
+        text: "The freezing point depression is a colligative property that is used to determine the:",
+        options: [
+          "Molar mass of a solute",
+          "Boiling point of a solution",
+          "Vapor pressure of a solution",
+          "Osmotic pressure of a solution"
+        ],
+        correctAnswer: "Molar mass of a solute"
+      },
+      {
+        text: "The common ion effect is the decrease in the solubility of an ionic precipitate by the addition to the solution of a soluble compound with an ion in common with the precipitate.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A buffer solution is a solution that resists changes in pH when small amounts of an acid or a base are added.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The Henderson-Hasselbalch equation is used to calculate the pH of a buffer solution.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The solubility product constant (Ksp) is the equilibrium constant for the dissolution of a solid substance into an aqueous solution.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The hydrolysis of a salt of a weak acid and a strong base results in a solution that is:",
+        options: [
+          "Acidic",
+          "Basic",
+          "Neutral",
+          "It depends on the salt"
+        ],
+        correctAnswer: "Basic"
+      },
+      {
+        text: "The hydrolysis of a salt of a strong acid and a weak base results in a solution that is:",
+        options: [
+          "Acidic",
+          "Basic",
+          "Neutral",
+          "It depends on the salt"
+        ],
+        correctAnswer: "Acidic"
+      },
+      {
+        text: "The hydrolysis of a salt of a weak acid and a weak base results in a solution that is:",
+        options: [
+          "Acidic",
+          "Basic",
+          "Neutral",
+          "It depends on the Ka and Kb values of the acid and base"
+        ],
+        correctAnswer: "It depends on the Ka and Kb values of the acid and base"
+      },
+      {
+        text: "The osmotic pressure of a solution is the pressure that must be applied to the solution to prevent the inward flow of solvent across a semipermeable membrane.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Van't Hoff's law states that the osmotic pressure of a dilute solution is directly proportional to the molar concentration of the solute and the absolute temperature.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The determination of solubility product by EMF method involves measuring the EMF of a cell in which one of the electrodes is in equilibrium with the sparingly soluble salt.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
       }
     ]
   },
@@ -66,6 +173,102 @@ export default [
           "Coagulation"
         ],
         correctAnswer: "Electrophoresis"
+      },
+      {
+        text: "The coordination number of a central metal ion in a complex is the number of ligand donor atoms to which the metal is directly bonded.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Geometrical isomerism is a type of stereoisomerism in which the isomers have different spatial arrangements of atoms.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Optical isomerism is a type of stereoisomerism in which the isomers are non-superimposable mirror images of each other.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Ionization isomerism is a type of structural isomerism in which the isomers give different ions in solution.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Linkage isomerism is a type of structural isomerism in which the isomers have a ligand that can bond to the metal ion through different atoms.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Coordination isomerism is a type of structural isomerism in which the composition of the complex ion varies.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A colloid is a mixture in which one substance of microscopically dispersed insoluble particles is suspended throughout another substance.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The principle of colloid formation is based on the condensation of small molecules or the dispersion of large molecules.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Lyophilic colloids are solvent-loving colloids, while lyophobic colloids are solvent-hating colloids.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The stability of a colloid is due to the presence of a charge on the colloidal particles and the solvation of the colloidal particles.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "An emulsion is a colloid of two or more immiscible liquids where one liquid contains a dispersion of the other liquids.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The association of colloids is the formation of aggregates of colloidal particles.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
       }
     ]
   },
@@ -91,6 +294,110 @@ export default [
           "Nitration of benzene"
         ],
         correctAnswer: "Dehydration of an alcohol"
+      },
+      {
+        text: "A radical reaction is a reaction that involves intermediates with unpaired electrons.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Homolytic bond cleavage is the breaking of a covalent bond in such a way that each fragment gets one of the shared electrons.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Heterolytic bond cleavage is the breaking of a covalent bond in such a way that one fragment gets both of the shared electrons.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A carbanion is an intermediate that contains a negatively charged carbon atom.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A carbon radical is an intermediate that contains a carbon atom with an unpaired electron.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "An electrophile is a chemical species that is attracted to electrons.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A nucleophile is a chemical species that donates an electron pair to an electrophile to form a chemical bond.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A substitution reaction is a reaction in which one functional group in a chemical compound is replaced by another functional group.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "An addition reaction is a reaction in which two or more molecules combine to form a larger one.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A rearrangement reaction is a reaction in which the carbon skeleton of a molecule is rearranged.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The stability of carbocations is in the order: 3° > 2° > 1° > methyl.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The stability of carbanions is in the order: methyl > 1° > 2° > 3°.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The stability of carbon radicals is in the order: 3° > 2° > 1° > methyl.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
       }
     ]
   },
@@ -126,6 +433,102 @@ export default [
           "Ionization energy of an atom"
         ],
         correctAnswer: "Lattice energy of an ionic solid"
+      },
+      {
+        text: "Valence bond theory describes the formation of covalent bonds in terms of the overlap of atomic orbitals.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Molecular orbital theory describes the formation of covalent bonds in terms of the combination of atomic orbitals to form molecular orbitals.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "VSEPR theory is used to predict the shape of molecules based on the number of electron pairs around the central atom.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Hybridization is the mixing of atomic orbitals to form new hybrid orbitals.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Resonance is a way of describing delocalized electrons within certain molecules or polyatomic ions where the bonding cannot be expressed by one single Lewis structure.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A dipole moment is a measure of the separation of positive and negative electrical charges within a system, that is, a measure of the system's overall polarity.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Bond length is the average distance between the nuclei of two bonded atoms in a molecule.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Bond angle is the angle between two bonds originating from the same atom.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Bond energy is the measure of bond strength in a chemical bond.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Van der Waals forces are the residual attractive or repulsive forces between molecules or atomic groups that do not arise from a covalent bond, or electrostatic interaction of ions or of ionic groups with neutral molecules or with other ions.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Ionic solids are solids composed of ions held together by ionic bonds.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Ionic radii are the radii of ions in an ionic crystal.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
       }
     ]
   },
@@ -151,6 +554,110 @@ export default [
           "Time"
         ],
         correctAnswer: "Temperature"
+      },
+      {
+        text: "The order of a reaction is the sum of the powers of the concentration of the reactants in the rate equation.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The molecularity of a reaction is the number of molecules that come together to react in an elementary reaction.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A first-order reaction is a reaction whose rate is proportional to the concentration of only one of the reactants.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A second-order reaction is a reaction whose rate is proportional to the product of the concentrations of two reactants or to the square of the concentration of one reactant.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A third-order reaction is a reaction whose rate is proportional to the product of the concentrations of three reactants, or to the cube of the concentration of one reactant.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A pseudo-first-order reaction is a second-order reaction that is made to behave like a first-order reaction.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "A fractional-order reaction is a reaction whose order is not an integer.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The half-life of a reaction is the time required for the concentration of a reactant to decrease to half of its initial concentration.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The rate constant of a reaction can be determined by the integral method or the half-life method.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "The effect of temperature on the rate constant is given by the Arrhenius equation.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Collision theory states that for a reaction to occur, the reactant particles must collide with each other with a certain minimum amount of energy.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "Transition state theory describes the rates of chemical reactions by assuming a special type of equilibrium (a quasi-equilibrium) between reactants and activated complexes.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
+      },
+      {
+        text: "An elementary reaction is a chemical reaction in which one or more chemical species react directly to form products in a single reaction step and with a single transition state.",
+        options: [
+          "True",
+          "False"
+        ],
+        correctAnswer: "True"
       }
     ]
   }
