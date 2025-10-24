@@ -1,55 +1,53 @@
 
-const modules = [
+export default [
   {
-    name: "Cell Biology",
+    moduleName: "Cell Biology",
     questions: [
       {
-        question: "The powerhouse of the cell is the:",
-        options: {
-          a: "Nucleus",
-          b: "Ribosome",
-          c: "Mitochondrion",
-          d: "Endoplasmic reticulum"
-        },
-        correctAnswer: "c"
+        text: "The powerhouse of the cell is the:",
+        options: [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Endoplasmic reticulum"
+        ],
+        correctAnswer: "Mitochondrion"
       },
       {
-        question: "Which of the following is not found in an animal cell?",
-        options: {
-          a: "Cell wall",
-          b: "Cell membrane",
-          c: "Cytoplasm",
-          d: "Nucleus"
-        },
-        correctAnswer: "a"
+        text: "Which of the following is not found in an animal cell?",
+        options: [
+          "Cell wall",
+          "Cell membrane",
+          "Cytoplasm",
+          "Nucleus"
+        ],
+        correctAnswer: "Cell wall"
       }
     ]
   },
   {
-    name: "Genetics",
+    moduleName: "Genetics",
     questions: [
       {
-        question: "The basic unit of heredity is the:",
-        options: {
-          a: "Gene",
-          b: "Chromosome",
-          c: "DNA",
-          d: "RNA"
-        },
-        correctAnswer: "a"
+        text: "The basic unit of heredity is the:",
+        options: [
+          "Gene",
+          "Chromosome",
+          "DNA",
+          "RNA"
+        ],
+        correctAnswer: "Gene"
       },
       {
-        question: "Who is known as the father of genetics?",
-        options: {
-          a: "Charles Darwin",
-          b: "Gregor Mendel",
-          c: "Louis Pasteur",
-          d: "Robert Hooke"
-        },
-        correctAnswer: "b"
+        text: "Who is known as the father of genetics?",
+        options: [
+          "Charles Darwin",
+          "Gregor Mendel",
+          "Louis Pasteur",
+          "Robert Hooke"
+        ],
+        correctAnswer: "Gregor Mendel"
       }
     ]
   }
 ];
-
-export default modules;

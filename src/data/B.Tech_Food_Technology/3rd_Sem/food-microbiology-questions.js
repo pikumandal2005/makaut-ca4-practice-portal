@@ -1,55 +1,53 @@
 
-const modules = [
+export default [
   {
-    name: "Microbial Growth",
+    moduleName: "Microbial Growth",
     questions: [
       {
-        question: "The phase of microbial growth in which the number of viable cells remains constant is the:",
-        options: {
-          a: "Lag phase",
-          b: "Log phase",
-          c: "Stationary phase",
-          d: "Decline phase"
-        },
-        correctAnswer: "c"
+        text: "The phase of microbial growth in which the number of viable cells remains constant is the:",
+        options: [
+          "Lag phase",
+          "Log phase",
+          "Stationary phase",
+          "Decline phase"
+        ],
+        correctAnswer: "Stationary phase"
       },
       {
-        question: "Which of the following factors does not affect microbial growth?",
-        options: {
-          a: "Temperature",
-          b: "pH",
-          c: "Water activity",
-          d: "Pressure"
-        },
-        correctAnswer: "d"
+        text: "Which of the following factors does not affect microbial growth?",
+        options: [
+          "Temperature",
+          "pH",
+          "Water activity",
+          "Pressure"
+        ],
+        correctAnswer: "Pressure"
       }
     ]
   },
   {
-    name: "Food Spoilage",
+    moduleName: "Food Spoilage",
     questions: [
       {
-        question: "The spoilage of milk is caused by:",
-        options: {
-          a: "Yeast",
-          b: "Mold",
-          c: "Bacteria",
-          d: "Virus"
-        },
-        correctAnswer: "c"
+        text: "The spoilage of milk is caused by:",
+        options: [
+          "Yeast",
+          "Mold",
+          "Bacteria",
+          "Virus"
+        ],
+        correctAnswer: "Bacteria"
       },
       {
-        question: "Which of the following is a type of food preservation?",
-        options: {
-          a: "Canning",
-          b: "Drying",
-          c: "Freezing",
-          d: "All of the above"
-        },
-        correctAnswer: "d"
+        text: "Which of the following is a type of food preservation?",
+        options: [
+          "Canning",
+          "Drying",
+          "Freezing",
+          "All of the above"
+        ],
+        correctAnswer: "All of the above"
       }
     ]
   }
 ];
-
-export default modules;

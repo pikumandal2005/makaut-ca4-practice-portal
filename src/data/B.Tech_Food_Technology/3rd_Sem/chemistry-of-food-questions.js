@@ -1,55 +1,53 @@
 
-const modules = [
+export default [
   {
-    name: "Carbohydrates",
+    moduleName: "Carbohydrates",
     questions: [
       {
-        question: "Which of the following is a monosaccharide?",
-        options: {
-          a: "Sucrose",
-          b: "Lactose",
-          c: "Glucose",
-          d: "Maltose"
-        },
-        correctAnswer: "c"
+        text: "Which of the following is a monosaccharide?",
+        options: [
+          "Sucrose",
+          "Lactose",
+          "Glucose",
+          "Maltose"
+        ],
+        correctAnswer: "Glucose"
       },
       {
-        question: "Starch is a polymer of:",
-        options: {
-          a: "Fructose",
-          b: "Glucose",
-          c: "Galactose",
-          d: "Mannose"
-        },
-        correctAnswer: "b"
+        text: "Starch is a polymer of:",
+        options: [
+          "Fructose",
+          "Glucose",
+          "Galactose",
+          "Mannose"
+        ],
+        correctAnswer: "Glucose"
       }
     ]
   },
   {
-    name: "Proteins",
+    moduleName: "Proteins",
     questions: [
       {
-        question: "The building blocks of proteins are:",
-        options: {
-          a: "Fatty acids",
-          b: "Amino acids",
-          c: "Glycerol",
-          d: "Monosaccharides"
-        },
-        correctAnswer: "b"
+        text: "The building blocks of proteins are:",
+        options: [
+          "Fatty acids",
+          "Amino acids",
+          "Glycerol",
+          "Monosaccharides"
+        ],
+        correctAnswer: "Amino acids"
       },
       {
-        question: "The primary structure of a protein refers to the:",
-        options: {
-          a: "Sequence of amino acids",
-          b: "Folding of the polypeptide chain",
-          c: "Arrangement of subunits",
-          d: "Three-dimensional shape of the protein"
-        },
-        correctAnswer: "a"
+        text: "The primary structure of a protein refers to the:",
+        options: [
+          "Sequence of amino acids",
+          "Folding of the polypeptide chain",
+          "Arrangement of subunits",
+          "Three-dimensional shape of the protein"
+        ],
+        correctAnswer: "Sequence of amino acids"
       }
     ]
   }
 ];
-
-export default modules;

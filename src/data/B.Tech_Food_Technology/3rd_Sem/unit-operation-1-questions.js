@@ -1,55 +1,53 @@
 
-const modules = [
+export default [
   {
-    name: "Size Reduction",
+    moduleName: "Size Reduction",
     questions: [
       {
-        question: "Which of the following is not a type of crusher?",
-        options: {
-          a: "Jaw crusher",
-          b: "Gyratory crusher",
-          c: "Ball mill",
-          d: "Hammer mill"
-        },
-        correctAnswer: "c"
+        text: "Which of the following is not a type of crusher?",
+        options: [
+          "Jaw crusher",
+          "Gyratory crusher",
+          "Ball mill",
+          "Hammer mill"
+        ],
+        correctAnswer: "Ball mill"
       },
       {
-        question: "Rittinger's law is related to:",
-        options: {
-          a: "Energy required for size reduction",
-          b: "Rate of filtration",
-          c: "Heat transfer",
-          d: "Fluid flow"
-        },
-        correctAnswer: "a"
+        text: "Rittinger's law is related to:",
+        options: [
+          "Energy required for size reduction",
+          "Rate of filtration",
+          "Heat transfer",
+          "Fluid flow"
+        ],
+        correctAnswer: "Energy required for size reduction"
       }
     ]
   },
   {
-    name: "Filtration",
+    moduleName: "Filtration",
     questions: [
       {
-        question: "The rate of filtration is inversely proportional to the:",
-        options: {
-          a: "Area of the filter medium",
-          b: "Viscosity of the filtrate",
-          c: "Pressure drop across the filter medium",
-          d: "Permeability of the filter cake"
-        },
-        correctAnswer: "b"
+        text: "The rate of filtration is inversely proportional to the:",
+        options: [
+          "Area of the filter medium",
+          "Viscosity of the filtrate",
+          "Pressure drop across the filter medium",
+          "Permeability of the filter cake"
+        ],
+        correctAnswer: "Viscosity of the filtrate"
       },
       {
-        question: "Which of the following is a type of filter aid?",
-        options: {
-          a: "Sand",
-          b: "Gravel",
-          c: "Diatomaceous earth",
-          d: "Clay"
-        },
-        correctAnswer: "c"
+        text: "Which of the following is a type of filter aid?",
+        options: [
+          "Sand",
+          "Gravel",
+          "Diatomaceous earth",
+          "Clay"
+        ],
+        correctAnswer: "Diatomaceous earth"
       }
     ]
   }
 ];
-
-export default modules;
