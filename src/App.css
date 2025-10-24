@@ -228,3 +228,42 @@ body {
   font-weight: bold;
   color: #e74c3c;
 }
+
+.contact-links {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-links li {
+  margin-bottom: 0.5rem;
+}
+
+.contact-links a {
+  color: #ecf0f1;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s;
+}
+
+.contact-links a:hover {
+  color: #3498db;
+}
+
+.contact-links i {
+  margin-right: 0.75rem;
+  font-size: 1.2rem;
+  width: 20px;
+  text-align: center;
+}
+
+.sidebar-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #34495e;
+  font-size: 0.8rem;
+  color: #bdc3c7;
+}
