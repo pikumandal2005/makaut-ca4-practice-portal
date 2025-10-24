@@ -1,52 +1,61 @@
-
 export default [
   {
-    moduleName: "Microbial Growth",
+    moduleName: "Introduction",
     questions: [
       {
-        text: "The phase of microbial growth in which the number of viable cells remains constant is the:",
+        text: "Who is considered the father of microbiology?",
         options: [
-          "Lag phase",
-          "Log phase",
-          "Stationary phase",
-          "Decline phase"
+          "Louis Pasteur",
+          "Robert Koch",
+          "Antonie van Leeuwenhoek",
+          "Alexander Fleming"
         ],
-        correctAnswer: "Stationary phase"
-      },
-      {
-        text: "Which of the following factors does not affect microbial growth?",
-        options: [
-          "Temperature",
-          "pH",
-          "Water activity",
-          "Pressure"
-        ],
-        correctAnswer: "Pressure"
+        correctAnswer: "Antonie van Leeuwenhoek"
       }
     ]
   },
   {
-    moduleName: "Food Spoilage",
+    moduleName: "Food borne illnesses and diseases",
     questions: [
       {
-        text: "The spoilage of milk is caused by:",
+        text: "Which of the following is a foodborne pathogen?",
         options: [
-          "Yeast",
-          "Mold",
-          "Bacteria",
-          "Virus"
-        ],
-        correctAnswer: "Bacteria"
-      },
-      {
-        text: "Which of the following is a type of food preservation?",
-        options: [
-          "Canning",
-          "Drying",
-          "Freezing",
+          "Salmonella",
+          "E. coli",
+          "Listeria monocytogenes",
           "All of the above"
         ],
         correctAnswer: "All of the above"
+      }
+    ]
+  },
+  {
+    moduleName: "Concepts of spoilage, pathogenic and beneficial microbes",
+    questions: [
+      {
+        text: "Probiotics are:",
+        options: [
+          "Live microorganisms that are intended to have health benefits when consumed or applied to the body",
+          "Dead microorganisms that are intended to have health benefits when consumed or applied to the body",
+          "Chemicals that kill microorganisms",
+          "None of the above"
+        ],
+        correctAnswer: "Live microorganisms that are intended to have health benefits when consumed or applied to the body"
+      }
+    ]
+  },
+  {
+    moduleName: "Microbiology of fruits & vegetable and products",
+    questions: [
+      {
+        text: "The process of heating a liquid to a specific temperature for a predefined length of time and then immediately cooling it down is called:",
+        options: [
+          "Pasteurization",
+          "Sterilization",
+          "Fermentation",
+          "Canning"
+        ],
+        correctAnswer: "Pasteurization"
       }
     ]
   }

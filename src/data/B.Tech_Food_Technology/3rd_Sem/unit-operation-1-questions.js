@@ -1,52 +1,96 @@
-
 export default [
   {
     moduleName: "Size Reduction",
     questions: [
       {
-        text: "Which of the following is not a type of crusher?",
+        text: "Which of the following is a type of crusher?",
         options: [
           "Jaw crusher",
-          "Gyratory crusher",
           "Ball mill",
-          "Hammer mill"
+          "Hammer mill",
+          "All of the above"
         ],
-        correctAnswer: "Ball mill"
+        correctAnswer: "All of the above"
       },
       {
-        text: "Rittinger's law is related to:",
+        text: "Rittinger's law states that the energy required for size reduction is proportional to:",
         options: [
-          "Energy required for size reduction",
-          "Rate of filtration",
-          "Heat transfer",
-          "Fluid flow"
+          "The new surface area created",
+          "The initial surface area",
+          "The volume of the particle",
+          "The mass of the particle"
         ],
-        correctAnswer: "Energy required for size reduction"
+        correctAnswer: "The new surface area created"
       }
     ]
   },
   {
-    moduleName: "Filtration",
+    moduleName: "Mixing",
     questions: [
       {
-        text: "The rate of filtration is inversely proportional to the:",
+        text: "Which of the following is a type of agitator?",
         options: [
-          "Area of the filter medium",
-          "Viscosity of the filtrate",
-          "Pressure drop across the filter medium",
-          "Permeability of the filter cake"
+          "Propeller",
+          "Turbine",
+          "Paddle",
+          "All of the above"
         ],
-        correctAnswer: "Viscosity of the filtrate"
+        correctAnswer: "All of the above"
       },
       {
-        text: "Which of the following is a type of filter aid?",
+        text: "The power consumption in mixing is affected by:",
         options: [
-          "Sand",
-          "Gravel",
-          "Diatomaceous earth",
-          "Clay"
+          "The type of agitator",
+          "The speed of the agitator",
+          "The properties of the fluid",
+          "All of the above"
         ],
-        correctAnswer: "Diatomaceous earth"
+        correctAnswer: "All of the above"
+      }
+    ]
+  },
+  {
+    moduleName: "Material balance",
+    questions: [
+      {
+        text: "A material balance is based on the principle of conservation of:",
+        options: [
+          "Mass",
+          "Energy",
+          "Momentum",
+          "Charge"
+        ],
+        correctAnswer: "Mass"
+      }
+    ]
+  },
+  {
+    moduleName: "Material Balance with recycle, bypass and purge",
+    questions: [
+      {
+        text: "A recycle stream is a process stream that:",
+        options: [
+          "Returns material from a downstream unit to an upstream unit",
+          "Skips one or more stages of the process and goes directly to a later stage",
+          "Is withdrawn from the process to remove an accumulation of inerts or unwanted material",
+          "None of the above"
+        ],
+        correctAnswer: "Returns material from a downstream unit to an upstream unit"
+      }
+    ]
+  },
+  {
+    moduleName: "Crystallization",
+    questions: [
+      {
+        text: "Crystallization is a process of:",
+        options: [
+          "Solid-liquid separation",
+          "Liquid-liquid separation",
+          "Gas-liquid separation",
+          "Solid-gas separation"
+        ],
+        correctAnswer: "Solid-liquid separation"
       }
     ]
   }

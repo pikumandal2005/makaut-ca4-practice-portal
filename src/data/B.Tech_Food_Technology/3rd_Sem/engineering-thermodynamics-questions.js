@@ -1,52 +1,111 @@
-
 export default [
   {
-    moduleName: "First Law of Thermodynamics",
+    moduleName: "Fundamentals of thermodynamics",
     questions: [
       {
-        text: "The first law of thermodynamics is a statement of:",
+        text: "The first law of thermodynamics is based on the principle of conservation of:",
         options: [
-          "Conservation of energy",
-          "Conservation of mass",
-          "Conservation of momentum",
-          "Conservation of charge"
+          "Energy",
+          "Mass",
+          "Momentum",
+          "Charge"
         ],
-        correctAnswer: "Conservation of energy"
+        correctAnswer: "Energy"
       },
       {
-        text: "Which of the following is an extensive property?",
+        text: "The efficiency of a Carnot engine depends on:",
         options: [
-          "Temperature",
-          "Pressure",
-          "Density",
-          "Volume"
+          "The temperatures of the source and sink",
+          "The working substance",
+          "The pressure of the source and sink",
+          "The volume of the source and sink"
         ],
-        correctAnswer: "Volume"
+        correctAnswer: "The temperatures of the source and sink"
+      },
+      {
+        text: "The third law of thermodynamics states that the entropy of a perfect crystal at absolute zero is:",
+        options: [
+          "Zero",
+          "Infinite",
+          "Positive",
+          "Negative"
+        ],
+        correctAnswer: "Zero"
       }
     ]
   },
   {
-    moduleName: "Second Law of Thermodynamics",
+    moduleName: "Properties of Pure Substances",
     questions: [
       {
-        text: "The second law of thermodynamics introduces the concept of:",
+        text: "The triple point of water is the temperature and pressure at which:",
         options: [
-          "Enthalpy",
-          "Entropy",
-          "Internal energy",
-          "Gibbs free energy"
+          "Water can exist in equilibrium in the solid, liquid, and gaseous states",
+          "Water boils",
+          "Water freezes",
+          "Water becomes a supercritical fluid"
         ],
-        correctAnswer: "Entropy"
+        correctAnswer: "Water can exist in equilibrium in the solid, liquid, and gaseous states"
       },
       {
-        text: "A heat engine that operates on the Carnot cycle is:",
+        text: "The ideal gas law is given by the equation:",
         options: [
-          "The most efficient engine possible",
-          "A perpetual motion machine",
-          "An impossible engine",
-          "A reversible engine"
+          "PV = nRT",
+          "P = V/nRT",
+          "V = P/nRT",
+          "T = PV/nR"
         ],
-        correctAnswer: "The most efficient engine possible"
+        correctAnswer: "PV = nRT"
+      },
+      {
+        text: "The psychrometric chart is used to determine the properties of:",
+        options: [
+          "Moist air",
+          "Dry air",
+          "Water vapor",
+          "Refrigerants"
+        ],
+        correctAnswer: "Moist air"
+      }
+    ]
+  },
+  {
+    moduleName: "Thermodynamic Relations",
+    questions: [
+      {
+        text: "The Maxwell relations are a set of equations in thermodynamics that are derived from:",
+        options: [
+          "The definitions of the thermodynamic potentials",
+          "The first law of thermodynamics",
+          "The second law of thermodynamics",
+          "The third law of thermodynamics"
+        ],
+        correctAnswer: "The definitions of the thermodynamic potentials"
+      },
+      {
+        text: "The Rankine cycle is a model used to predict the performance of:",
+        options: [
+          "Steam turbine systems",
+          "Internal combustion engines",
+          "Gas turbine systems",
+          "Refrigeration systems"
+        ],
+        correctAnswer: "Steam turbine systems"
+      }
+    ]
+  },
+  {
+    moduleName: "Thermodynamics of fluid flow",
+    questions: [
+      {
+        text: "A boiler is a device used to create:",
+        options: [
+          "Steam",
+          "Hot water",
+          "Hot air",
+          "Cold water"
+        ],
+        correctAnswer: "Steam"
       }
     ]
   }

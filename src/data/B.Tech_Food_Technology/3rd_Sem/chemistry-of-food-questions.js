@@ -1,7 +1,36 @@
-
 export default [
   {
-    moduleName: "Carbohydrates",
+    moduleName: "Introduction",
+    questions: [
+      {
+        text: "Which of the following is a macronutrient?",
+        options: [
+          "Carbohydrates",
+          "Vitamins",
+          "Minerals",
+          "Water"
+        ],
+        correctAnswer: "Carbohydrates"
+      }
+    ]
+  },
+  {
+    moduleName: "Water",
+    questions: [
+      {
+        text: "Water activity (aw) is a measure of:",
+        options: [
+          "The availability of water for microbial growth",
+          "The total amount of water in a food",
+          "The bound water in a food",
+          "The free water in a food"
+        ],
+        correctAnswer: "The availability of water for microbial growth"
+      }
+    ]
+  },
+  {
+    moduleName: "Carbohydrate",
     questions: [
       {
         text: "Which of the following is a monosaccharide?",
@@ -10,16 +39,6 @@ export default [
           "Lactose",
           "Glucose",
           "Maltose"
-        ],
-        correctAnswer: "Glucose"
-      },
-      {
-        text: "Starch is a polymer of:",
-        options: [
-          "Fructose",
-          "Glucose",
-          "Galactose",
-          "Mannose"
         ],
         correctAnswer: "Glucose"
       }
@@ -37,16 +56,66 @@ export default [
           "Monosaccharides"
         ],
         correctAnswer: "Amino acids"
-      },
+      }
+    ]
+  },
+  {
+    moduleName: "Browning reactions",
+    questions: [
       {
-        text: "The primary structure of a protein refers to the:",
+        text: "Which of the following is an example of enzymatic browning?",
         options: [
-          "Sequence of amino acids",
-          "Folding of the polypeptide chain",
-          "Arrangement of subunits",
-          "Three-dimensional shape of the protein"
+          "The browning of an apple when it is cut",
+          "The browning of bread when it is toasted",
+          "The browning of caramel when it is heated",
+          "The browning of meat when it is cooked"
         ],
-        correctAnswer: "Sequence of amino acids"
+        correctAnswer: "The browning of an apple when it is cut"
+      }
+    ]
+  },
+  {
+    moduleName: "Lipids",
+    questions: [
+      {
+        text: "Which of the following is a saturated fatty acid?",
+        options: [
+          "Oleic acid",
+          "Linoleic acid",
+          "Palmitic acid",
+          "Linolenic acid"
+        ],
+        correctAnswer: "Palmitic acid"
+      }
+    ]
+  },
+  {
+    moduleName: "Vitamins",
+    questions: [
+      {
+        text: "Which of the following vitamins is fat-soluble?",
+        options: [
+          "Vitamin C",
+          "Vitamin B1",
+          "Vitamin A",
+          "Vitamin B6"
+        ],
+        correctAnswer: "Vitamin A"
+      }
+    ]
+  },
+  {
+    moduleName: "Minerals",
+    questions: [
+      {
+        text: "Which of the following minerals is important for bone health?",
+        options: [
+          "Iron",
+          "Calcium",
+          "Iodine",
+          "Zinc"
+        ],
+        correctAnswer: "Calcium"
       }
     ]
   }

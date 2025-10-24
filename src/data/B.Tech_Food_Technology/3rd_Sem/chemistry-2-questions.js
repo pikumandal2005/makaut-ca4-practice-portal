@@ -1,52 +1,156 @@
-
 export default [
   {
-    moduleName: "Chemical Kinetics",
+    moduleName: "Dilute solutions",
     questions: [
       {
-        text: "The rate of a chemical reaction is independent of the concentration of reactants for a:",
+        text: "Which of the following is a colligative property?",
         options: [
-          "First-order reaction",
-          "Zero-order reaction",
-          "Second-order reaction",
-          "Third-order reaction"
+          "Boiling point",
+          "Vapor pressure",
+          "Osmotic pressure",
+          "Freezing point"
         ],
-        correctAnswer: "Zero-order reaction"
+        correctAnswer: "Osmotic pressure"
       },
       {
-        text: "The half-life of a first-order reaction is:",
+        text: "The lowering of vapor pressure of a solution is directly proportional to the:",
         options: [
-          "Directly proportional to the initial concentration",
-          "Inversely proportional to the initial concentration",
-          "Independent of the initial concentration",
-          "Directly proportional to the square of the initial concentration"
+          "Mole fraction of the solute",
+          "Mole fraction of the solvent",
+          "Molarity of the solution",
+          "Molality of the solution"
         ],
-        correctAnswer: "Independent of the initial concentration"
+        correctAnswer: "Mole fraction of the solute"
+      },
+      {
+        text: "The ionic product of water (Kw) is equal to:",
+        options: [
+          "[H+][OH-]",
+          "[H+] + [OH-]",
+          "[H+]/[OH-]",
+          "[OH-]/[H+]"
+        ],
+        correctAnswer: "[H+][OH-]"
       }
     ]
   },
   {
-    moduleName: "Electrochemistry",
+    moduleName: "Coordination and Colloid chemistry",
     questions: [
       {
-        text: "The standard electrode potential of an electrode is measured with respect to a:",
+        text: "Which of the following is a bidentate ligand?",
         options: [
-          "Calomel electrode",
-          "Quinhydrone electrode",
-          "Standard hydrogen electrode",
-          "Glass electrode"
+          "Ammonia",
+          "Chloride ion",
+          "Ethylenediamine",
+          "Water"
         ],
-        correctAnswer: "Standard hydrogen electrode"
+        correctAnswer: "Ethylenediamine"
       },
       {
-        text: "Which of the following is a secondary cell?",
+        text: "The Tyndall effect is observed in:",
         options: [
-          "Leclanche cell",
-          "Dry cell",
-          "Lead-acid battery",
-          "Daniel cell"
+          "True solutions",
+          "Colloidal solutions",
+          "Suspensions",
+          "None of the above"
         ],
-        correctAnswer: "Lead-acid battery"
+        correctAnswer: "Colloidal solutions"
+      },
+      {
+        text: "The movement of colloidal particles under the influence of an electric field is called:",
+        options: [
+          "Dialysis",
+          "Electrophoresis",
+          "Brownian motion",
+          "Coagulation"
+        ],
+        correctAnswer: "Electrophoresis"
+      }
+    ]
+  },
+  {
+    moduleName: "Reaction mechanisms",
+    questions: [
+      {
+        text: "A carbocation is an intermediate that contains a:",
+        options: [
+          "Positively charged carbon atom",
+          "Negatively charged carbon atom",
+          "Carbon atom with a free radical",
+          "Carbon atom with a lone pair of electrons"
+        ],
+        correctAnswer: "Positively charged carbon atom"
+      },
+      {
+        text: "Which of the following is an example of an elimination reaction?",
+        options: [
+          "Hydration of an alkene",
+          "Dehydration of an alcohol",
+          "Halogenation of an alkane",
+          "Nitration of benzene"
+        ],
+        correctAnswer: "Dehydration of an alcohol"
+      }
+    ]
+  },
+  {
+    moduleName: "Structure and bonding",
+    questions: [
+      {
+        text: "The shape of a molecule with sp3 hybridization is:",
+        options: [
+          "Linear",
+          "Trigonal planar",
+          "Tetrahedral",
+          "Octahedral"
+        ],
+        correctAnswer: "Tetrahedral"
+      },
+      {
+        text: "Hydrogen bonding is a special type of:",
+        options: [
+          "Ionic bond",
+          "Covalent bond",
+          "Metallic bond",
+          "Dipole-dipole interaction"
+        ],
+        correctAnswer: "Dipole-dipole interaction"
+      },
+      {
+        text: "The Born-Haber cycle is used to determine the:",
+        options: [
+          "Lattice energy of an ionic solid",
+          "Bond energy of a covalent bond",
+          "Enthalpy of formation of a compound",
+          "Ionization energy of an atom"
+        ],
+        correctAnswer: "Lattice energy of an ionic solid"
+      }
+    ]
+  },
+  {
+    moduleName: "Kinetics",
+    questions: [
+      {
+        text: "The rate of a zero-order reaction is:",
+        options: [
+          "Independent of the concentration of the reactant",
+          "Directly proportional to the concentration of the reactant",
+          "Directly proportional to the square of the concentration of the reactant",
+          "Inversely proportional to the concentration of the reactant"
+        ],
+        correctAnswer: "Independent of the concentration of the reactant"
+      },
+      {
+        text: "The Arrhenius equation relates the rate constant of a reaction to:",
+        options: [
+          "Temperature",
+          "Pressure",
+          "Concentration",
+          "Time"
+        ],
+        correctAnswer: "Temperature"
       }
     ]
   }
