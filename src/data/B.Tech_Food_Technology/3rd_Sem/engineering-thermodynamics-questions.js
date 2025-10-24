@@ -1,0 +1,55 @@
+
+const modules = [
+  {
+    name: "First Law of Thermodynamics",
+    questions: [
+      {
+        question: "The first law of thermodynamics is a statement of:",
+        options: {
+          a: "Conservation of energy",
+          b: "Conservation of mass",
+          c: "Conservation of momentum",
+          d: "Conservation of charge"
+        },
+        correctAnswer: "a"
+      },
+      {
+        question: "Which of the following is an extensive property?",
+        options: {
+          a: "Temperature",
+          b: "Pressure",
+          c: "Density",
+          d: "Volume"
+        },
+        correctAnswer: "d"
+      }
+    ]
+  },
+  {
+    name: "Second Law of Thermodynamics",
+    questions: [
+      {
+        question: "The second law of thermodynamics introduces the concept of:",
+        options: {
+          a: "Enthalpy",
+          b: "Entropy",
+          c: "Internal energy",
+          d: "Gibbs free energy"
+        },
+        correctAnswer: "b"
+      },
+      {
+        question: "A heat engine that operates on the Carnot cycle is:",
+        options: {
+          a: "The most efficient engine possible",
+          b: "A perpetual motion machine",
+          c: "An impossible engine",
+          d: "A reversible engine"
+        },
+        correctAnswer: "a"
+      }
+    ]
+  }
+];
+
+export default modules;

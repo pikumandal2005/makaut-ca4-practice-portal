@@ -58,6 +58,42 @@ export const departments = [
   },
   {
     name: "B.Tech in Food Technology",
-    semesters: [],
+    semesters: [
+      {
+        name: "3rd Semester",
+        subjects: [
+          {
+            key: "chemistry-2",
+            name: "Chemistry-II",
+            path: "B.Tech_Food_Technology/3rd_Sem/chemistry-2-questions.js"
+          },
+          {
+            key: "engineering-thermodynamics",
+            name: "Engineering Thermodynamics",
+            path: "B.Tech_Food_Technology/3rd_Sem/engineering-thermodynamics-questions.js"
+          },
+          {
+            key: "unit-operation-1",
+            name: "Unit Operation –I",
+            path: "B.Tech_Food_Technology/3rd_Sem/unit-operation-1-questions.js"
+          },
+          {
+            key: "chemistry-of-food",
+            name: "Chemistry of Food",
+            path: "B.Tech_Food_Technology/3rd_Sem/chemistry-of-food-questions.js"
+          },
+          {
+            key: "food-microbiology",
+            name: "Food Microbiology",
+            path: "B.Tech_Food_Technology/3rd_Sem/food-microbiology-questions.js"
+          },
+          {
+            key: "biology-for-engineers",
+            name: "Biology for Engineers",
+            path: "B.Tech_Food_Technology/3rd_Sem/biology-for-engineers-questions.js"
+          }
+        ]
+      }
+    ],
   },
 ];
