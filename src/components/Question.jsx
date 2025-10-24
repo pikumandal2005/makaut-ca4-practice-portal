@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 
-const Question = ({ question, onAnswer, onMarkForReview, isMarked }) => {
+const Question = ({ question, onAnswer, onMarkForReview, isMarked, onNext }) => {
   const [selectedOption, setSelectedOption] = useState(null);
 
   const handleAnswer = () => {
@@ -43,6 +43,12 @@ const Question = ({ question, onAnswer, onMarkForReview, isMarked }) => {
           onClick={onMarkForReview}
         >
           {isMarked ? 'Unmark' : 'Mark for Review'}
+        </button>
+        <button
+          className="btn btn-info btn-lg"
+          onClick={onNext}
+        >
+          Next
         </button>
       </div>
     </div>

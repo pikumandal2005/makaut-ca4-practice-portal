@@ -126,9 +126,23 @@ function App() {
     setQuestionStatus(newQuestionStatus);
   };
 
-  const goToHome = () => {
-    setGameState('start');
-    setSubject('');
+  const handleNextQuestion = () => {
+    const nextQuestion = currentQuestion + 1;
+    if (nextQuestion < questions.length) {
+      setCurrentQuestion(nextQuestion);
+    } else {
+      setGameState('end');
+    }
+  };
+
+  const handleBack = () => {
+    if (gameState === 'module') {
+      setGameState('start');
+    } else if (gameState === 'quiz') {
+      setGameState('module');
+    } else if (gameState === 'end') {
+      setGameState('start');
+    }
   };
 
   const formatTime = (seconds) => {
@@ -146,7 +160,7 @@ function App() {
             {isSidebarOpen ? '✕' : '☰'}
           </button>
           <h1>{subject ? `${subject} MCQ` : 'MCQ Game Portal'}</h1>
-          {gameState !== 'start' && <button className="btn btn-secondary" onClick={goToHome}>Home</button>}
+          {gameState !== 'start' && <button className="btn btn-secondary" onClick={handleBack}>Back</button>}
           {gameState === 'quiz' && <div className="timer">Time: {formatTime(time)}</div>}
         </div>
 
@@ -168,6 +182,7 @@ function App() {
                 onAnswer={handleAnswer}
                 onMarkForReview={() => handleMarkForReview(currentQuestion)}
                 isMarked={markedQuestions.includes(currentQuestion)}
+                onNext={handleNextQuestion}
               />
               <button className="btn btn-danger btn-lg mt-3" onClick={handleExit}>Exit Quiz</button>
             </div>
